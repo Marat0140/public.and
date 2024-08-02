@@ -14,3 +14,12 @@ function checkCountValue() {
     alert("Your Instagram post gained 20 followers! Keep it up!");
   }
 }
+function checkResetValue() {
+    alert("You Instagram post has ben Reset")
+}
+
+function deincreaseCount() {
+    count = 0;
+    displayCount(); // Display the count
+    checkResetValue();
+}
